@@ -1,0 +1,84 @@
+Last login: Thu Dec  7 18:28:51 on ttys002
+You have new mail.
+macbookair:~ shinyayamamoto$ cd ./Desktop/YoutubeAutoPlaySample/
+macbookair:YoutubeAutoPlaySample shinyayamamoto$ git init
+Initialized empty Git repository in /Users/shinyayamamoto/Desktop/YoutubeAutoPlaySample/.git/
+macbookair:YoutubeAutoPlaySample shinyayamamoto$ git add .
+macbookair:YoutubeAutoPlaySample shinyayamamoto$ git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+	new file:   Podfile
+	new file:   Podfile.lock
+	new file:   Pods/Manifest.lock
+	new file:   Pods/Pods.xcodeproj/project.pbxproj
+	new file:   Pods/Pods.xcodeproj/xcuserdata/shinyayamamoto.xcuserdatad/xcschemes/Pods-YoutubeAutoPlaySample.xcscheme
+	new file:   Pods/Pods.xcodeproj/xcuserdata/shinyayamamoto.xcuserdatad/xcschemes/xcschememanagement.plist
+	new file:   Pods/Pods.xcodeproj/xcuserdata/shinyayamamoto.xcuserdatad/xcschemes/youtube-ios-player-helper.xcscheme
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Info.plist
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Pods-YoutubeAutoPlaySample-acknowledgements.markdown
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Pods-YoutubeAutoPlaySample-acknowledgements.plist
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Pods-YoutubeAutoPlaySample-dummy.m
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Pods-YoutubeAutoPlaySample-frameworks.sh
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Pods-YoutubeAutoPlaySample-resources.sh
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Pods-YoutubeAutoPlaySample-umbrella.h
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Pods-YoutubeAutoPlaySample.debug.xcconfig
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Pods-YoutubeAutoPlaySample.modulemap
+	new file:   Pods/Target Support Files/Pods-YoutubeAutoPlaySample/Pods-YoutubeAutoPlaySample.release.xcconfig
+	new file:   Pods/Target Support Files/youtube-ios-player-helper/Info.plist
+	new file:   Pods/Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-dummy.m
+	new file:   Pods/Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-prefix.pch
+	new file:   Pods/Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper-umbrella.h
+	new file:   Pods/Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.modulemap
+	new file:   Pods/Target Support Files/youtube-ios-player-helper/youtube-ios-player-helper.xcconfig
+	new file:   Pods/youtube-ios-player-helper/Classes/YTPlayerView.h
+	new file:   Pods/youtube-ios-player-helper/Classes/YTPlayerView.m
+	new file:   Pods/youtube-ios-player-helper/LICENSE
+	new file:   Pods/youtube-ios-player-helper/README.md
+	new file:   Pods/youtube-ios-player-helper/youtube-ios-player-helper/Assets.bundle/Assets/YTPlayerView-iframe-player.html
+	new file:   YoutubeAutoPlaySample.xcodeproj/project.pbxproj
+	new file:   YoutubeAutoPlaySample.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+	new file:   YoutubeAutoPlaySample.xcodeproj/project.xcworkspace/xcuserdata/shinyayamamoto.xcuserdatad/UserInterfaceState.xcuserstate
+	new file:   YoutubeAutoPlaySample.xcodeproj/xcuserdata/shinyayamamoto.xcuserdatad/xcschemes/xcschememanagement.plist
+	new file:   YoutubeAutoPlaySample.xcworkspace/contents.xcworkspacedata
+	new file:   YoutubeAutoPlaySample.xcworkspace/xcuserdata/shinyayamamoto.xcuserdatad/UserInterfaceState.xcuserstate
+	new file:   YoutubeAutoPlaySample/AppDelegate.swift
+	new file:   YoutubeAutoPlaySample/Assets.xcassets/AppIcon.appiconset/Contents.json
+	new file:   YoutubeAutoPlaySample/Base.lproj/LaunchScreen.storyboard
+	new file:   YoutubeAutoPlaySample/Base.lproj/Main.storyboard
+	new file:   YoutubeAutoPlaySample/Info.plist
+	new file:   YoutubeAutoPlaySample/ViewController.swift
+	new file:   YoutubeAutoPlaySample/YoutubeAutoPlaySample-Bridging-Header.h
+
+macbookair:YoutubeAutoPlaySample shinyayamamoto$ cd ../ARKitSample/
+macbookair:ARKitSample shinyayamamoto$ vi .gitignore
+
+# Xcode
+# 
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+".gitignore" 63L, 1396C
+
